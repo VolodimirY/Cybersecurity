@@ -39,3 +39,27 @@ This is my configuration file, we need to specify the assert (chai) and the prog
 
 <img width="554" height="321" alt="image" src="https://github.com/user-attachments/assets/2cd19334-9c1a-4e00-8ab1-1dadd434996a" />
 
+After setting up everyting, we need to run the command `npm test`. As you can see, we got all correct because the functions returned right answers. 
+
+<img width="764" height="644" alt="image" src="https://github.com/user-attachments/assets/bfcd2e63-593e-4207-97a1-ce7f8e3c8af4" />
+
+I just showed you the basics of this stack, now we are going to introduce it futher. Those are the functions that we can use hooks: 
+
+`before(function() {
+    // It is executed before all block tests.
+  }); 
+  after(function() {
+    // It is executed before after block tests.
+  });
+  beforeEach(function() {
+    // It is executed before each block test
+  });
+  afterEach(function() {
+    // It is executed after each block test
+  });
+`
+If we got a massive amount of tests at some point, we can use only() and skip() functions:
+
+<img width="800" height="320" alt="image" src="https://github.com/user-attachments/assets/32cf6641-db7a-46df-9b96-582d87b4fee7" />
+
+
