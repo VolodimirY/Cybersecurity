@@ -47,14 +47,17 @@ I just showed you the basics of this stack, now we are going to introduce it fut
 
 `before(function() {
     // It is executed before all block tests.
-  }); 
-  after(function() {
+  }); `
+  
+  `after(function() {
     // It is executed before after block tests.
-  });
-  beforeEach(function() {
+  });`
+  
+ ` beforeEach(function() {
     // It is executed before each block test
-  });
-  afterEach(function() {
+  });`
+  
+  `afterEach(function() {
     // It is executed after each block test
   });
 `
