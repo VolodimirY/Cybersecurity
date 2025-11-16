@@ -1,0 +1,3 @@
+La asignatura AFI (Análisis Forense Informático) dentro del Curso de Especialización en Ciberseguridad en Entornos de las Tecnologías de la Información se centra en el estudio, técnicas y procedimientos necesarios para investigar incidentes de seguridad, recopilar evidencias digitales y realizar análisis forenses respetando la cadena de custodia y las buenas prácticas profesionales.
+
+The subject AFI (Computer Forensic Analysis) within the Specialization Course in Cybersecurity in Information Technology Environments focuses on the study, techniques and procedures necessary to investigate security incidents, collect digital evidence and perform forensic analysis respecting the chain of custody and good professional practices.
