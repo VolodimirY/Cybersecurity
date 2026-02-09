@@ -49,10 +49,12 @@ Let´s start with detection of vulnerabilities, first of all, we need to enable 
 
 lets enter the wazuh config file on etc/ossec.conf and find vulnerability-detector topic.
 
-
+<img width="511" height="436" alt="image" src="https://github.com/user-attachments/assets/c4e6f692-2887-4ea9-afea-10dd00abab5e" />
 
 As we can see, we need to enable the detector and we choose cannocical because we´re using Ubuntu OS. Appy any changes and type this command to reaload the manager:
 
 sudo systemctl restart wazuh-manager
+
+
 
 
