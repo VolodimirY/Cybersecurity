@@ -43,5 +43,16 @@ After modifiyng the file, wazuh registered a new event
 
 <img width="1908" height="903" alt="image" src="https://github.com/user-attachments/assets/02cecd84-af79-4c5b-8212-cb99a83114fc" />
 
+**Vulnerability detector**
+
+Let´s start with detection of vulnerabilities, first of all, we need to enable vulnerability detector in wuzuh server.
+
+lets enter the wazuh config file on etc/ossec.conf and find vulnerability-detector topic.
+
+
+
+As we can see, we need to enable the detector and we choose cannocical because we´re using Ubuntu OS. Appy any changes and type this command to reaload the manager:
+
+sudo systemctl restart wazuh-manager
 
 
